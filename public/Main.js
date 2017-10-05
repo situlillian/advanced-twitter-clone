@@ -1,3 +1,9 @@
 function Main(){
-  return <div>Hello</div>
+  return (
+    <div className="main">
+      <Profile />
+      <Tweets />
+      <Follow />
+    </div>
+  );
 }

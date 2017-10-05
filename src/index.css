@@ -1,5 +1,42 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 2em;
+  font-family: helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+div {
+  border: 2px solid red;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
+.search, .logo, .navbar {
+  width: 33%;
+}
+
+img {
+  border: 1px solid green;
+  height: 50px;
+  width: 33%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+}
+
+.profile, .follow {
+  width: 25vw;
+}
+
+.tweets {
+  width: 50vw;
 }
